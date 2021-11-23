@@ -1,0 +1,7 @@
+•I tried to make a shopping website with a sign in page.
+•This website consists of 4 .html pages and a .css file.
+•Index.html; This page consists the main structure of the shopping website. 
+•Sign.html; This can be opened by the sign in button in the top right of index.html. Here you can enter any ID. And then select “Go” button. Then comes the pw1.html page.
+•Pw1.html; Here you can enter the password. And then select “Go” button again.
+•Dashboard.html; After the sign on process the user comes to the dashboard page. (top right).
+

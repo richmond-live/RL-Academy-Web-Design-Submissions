@@ -1,0 +1,29 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#parallax {
+  position: relative;
+
+  background-image: url("Images/New_folder/Wood Background.jpg");
+  height: 110vh;
+  grid-column: 1/5;
+  /* align-items: center; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#div_logo {
+  opacity: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+}

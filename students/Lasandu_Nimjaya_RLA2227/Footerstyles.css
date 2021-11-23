@@ -1,0 +1,40 @@
+.footer{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;    
+    color: white;
+    background-color: red;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer p{
+    font-size: 18px;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input{
+    border: none;
+    border-bottom: white 1px solid;
+    width: 50%;
+    padding-top: 8px;
+    /* margin: 8px; */
+    margin-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #1f1f1f;
+    background-color: red;
+}
+
+::placeholder{
+    color: #1f1f1f;
+    opacity: 0.8;
+}
+
+#footertopic{
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    width: 100%;
+    overflow: auto;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+*{
+    color: white;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0;
+    text-align: center;
+    background-color: black;
+    padding: 0;
+}
+
+.header{
+    grid-column: 1/5;
+}
+
+.footer{
+    grid-column: 1/5;
+}
+
+#tshirt1{
+    grid-column: 1/5;
+}

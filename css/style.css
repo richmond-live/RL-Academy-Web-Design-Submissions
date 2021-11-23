@@ -1,0 +1,84 @@
+/* Import Bebas and Lato Font */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap");
+/* Import Font Awesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+/* Import Animate CSS */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+/* Import Hover CSS */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css");
+
+html,
+body {
+  margin: 0 !important;
+  height: 100vh !important;
+  font-family: "Lato", sans-serif !important;
+}
+.secondary-font {
+  font-family: "Bebas Neue", cursive !important;
+}
+.content-section {
+  margin: 0 !important;
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center;
+  background-image: url("../img/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-fluid {
+  padding: 2rem !important;
+  align-self: center !important;
+}
+.card {
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: transparent;
+}
+.card .inner {
+  height: 180px;
+  padding: 10px;
+  background: #fff;
+  color: black;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  margin: 15px 0;
+}
+
+.card .inner p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.medal-image{
+    height: 50px;
+}
+
+.main-title{
+    color: #ece9e9 !important;
+  text-shadow: -2px 2px #47a79b;
+  font-family: "Bebas Neue", cursive;
+}
+
+.logo-img {
+  width: 8rem;
+}
+
+@media screen and (max-width: 991px) {
+   
+  .card:nth-child(odd) {
+    padding-left: 0;
+  }
+  .card:nth-child(even) {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    .content-section{
+        height: 250vh !important;
+    }
+  .card:nth-child(odd),
+  .card:nth-child(even) {
+    padding: 0;
+  }
+}
